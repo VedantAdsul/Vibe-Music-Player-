@@ -16,7 +16,6 @@ Vibe is an Android music-player project featuring a curated music library, playb
 - **QR codes** — generate a QR code for a signed-in user's username and scan QR codes.
 - **Firebase integration** — uses Firebase Authentication and Realtime Database, with Firebase Storage included as a dependency.
 
-*This repository describes the features present in the current source code. Some features may require additional configuration or further testing.*
 
 ## Tech stack
 
@@ -26,7 +25,6 @@ Vibe is an Android music-player project featuring a curated music library, playb
 - **Build system:** Gradle (Kotlin DSL)
 - **Authentication and cloud data:** Firebase Authentication and Realtime Database
 - **Media playback:** Android `MediaPlayer`
-- **QR code scanning/generation:** ZXing
 - **Images:** Glide
 - **Other libraries:** RecyclerView, ImageSlideshow
 
