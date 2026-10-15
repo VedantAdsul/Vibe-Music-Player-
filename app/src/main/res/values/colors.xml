@@ -1,0 +1,43 @@
+<resources>
+
+    <color name="primary">#6200EE</color>
+    <color name="primary_variant">#3700B3</color>
+    <color name="secondary">#03DAC5</color>
+
+    <color name="highlight_bg">#D1C4E9</color>
+    <color name="text_selected">#512DA8</color>
+    <color name="text_normal">#333333</color>
+    <color name="icon_tint_selected">#7E57C2</color>
+
+    <color name="transparent">#00000000</color>
+
+
+    <color name="vibe_app_dark_grey">#2C2C2E</color>
+    <color name="vibe_app_accent_pink">#E80074</color>
+    <color name="vibe_app_text_light">#F5F5F5</color>
+    <color name="vibe_app_text_subtle">#9E9E9E</color>
+    <color name="black">#000000</color>
+
+    <color name="app_background">#FFF8FB</color> <!-- Light pinkish background -->
+    <color name="primary_pink">#F57D9A</color> <!-- Main pink from header/buttons -->
+    <color name="primary_pink_dark">#E96386</color> <!-- A slightly darker shade for accents -->
+
+    <!-- Text Colors -->
+    <color name="text_primary">#2D2D2D</color> <!-- Dark gray for primary text -->
+    <color name="text_secondary">#757575</color> <!-- Lighter gray for subtitles/email -->
+
+    <!-- Icon Background Colors (Inspired by reference image) -->
+    <color name="icon_bg_playlists">#E8D4F5</color> <!-- Light Lavender -->
+    <color name="icon_bg_favourites">#F5E6D4</color> <!-- Light Peach -->
+    <color name="icon_bg_settings">#D4EAF5</color> <!-- Light Blue -->
+    <color name="icon_bg_about">#D4F5D6</color> <!-- Light Green -->
+    <color name="icon_bg_logout">#F5D4D4</color> <!-- Light Red/Pink -->
+
+    <!-- Other -->
+    <color name="white">#FFFFFF</color>
+    <color name="light_gray">#D3D3D3</color>
+
+    <color name="edit_text_background">#F0F0F0</color>
+    <color name="edit_text_stroke">#CCCCCC</color>
+
+</resources>

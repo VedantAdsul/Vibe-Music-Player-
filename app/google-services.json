@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "421558879658",
+    "firebase_url": "https://vedant-vibe-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "vedant-vibe",
+    "storage_bucket": "vedant-vibe.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:421558879658:android:159c351764d0a34757d7d3",
+        "android_client_info": {
+          "package_name": "com.vedant.vibe"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "421558879658-6060ghu0kqcbeuermubhon6nvsncu57c.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.vedant.vibe",
+            "certificate_hash": "390910ab036858190de4d7d25a0b2631d63a33fa"
+          }
+        },
+        {
+          "client_id": "421558879658-s81u959uljacdbuh4u78bjkvj860b92c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDVtcawoOtH7iwJuvxF6rD9KmerDwHcF6M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "421558879658-s81u959uljacdbuh4u78bjkvj860b92c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

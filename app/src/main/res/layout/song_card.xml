@@ -1,0 +1,70 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_columnWeight="1"
+    android:orientation="vertical"
+    android:padding="8dp"
+    android:background="@drawable/rounded_white_bg"
+    android:elevation="2dp"
+    android:layout_margin="8dp">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp">
+
+        <ImageView
+            android:id="@+id/coverpage"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/blue_youngkai" />
+
+        <ImageView
+            android:id="@+id/likebutton"
+            android:layout_width="40dp"
+            android:layout_height="34dp"
+            android:layout_gravity="end|top"
+            android:src="@drawable/ic_heart_unliked"
+            android:background="@android:color/transparent"
+            android:clickable="true"
+            android:focusable="true"
+            app:tint="#F44336" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|start"
+            android:layout_margin="6dp"
+            android:text="3:45"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:background="#80000000"
+            android:padding="2dp"
+            android:id="@+id/songLenght"/>
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/songname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Song Name"
+        android:textColor="#111111"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:layout_marginTop="6dp"
+        android:maxLines="1"
+        android:ellipsize="end"/>
+
+    <TextView
+        android:id="@+id/artistname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Artist Name"
+        android:textColor="#111111"
+        android:textSize="12sp"
+        android:textStyle="italic"
+        android:maxLines="1"
+        android:ellipsize="end"/>
+
+</LinearLayout>

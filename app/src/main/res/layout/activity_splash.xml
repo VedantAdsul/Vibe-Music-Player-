@@ -1,0 +1,40 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linearlayoutsplash"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/gradient_splash">
+
+    <ImageView
+        android:id="@+id/IVsplash"
+        android:layout_width="172dp"
+        android:layout_height="100dp"
+        android:src="@drawable/vibe_logo"
+        android:scaleType="centerCrop"
+        android:cropToPadding="true"/>
+
+    <TextView
+        android:id="@+id/slogan_splash"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:elevation="4dp"
+        android:shadowColor="#66000000"
+        android:text="just Vibe 🎧"
+        android:textColor="#212121"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:indeterminate="true"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center_horizontal"
+        android:indeterminateTint="#FF6F91"
+        android:progressTint="#FF6F91"
+        android:backgroundTint="#FFC75F" />
+
+
+</LinearLayout>
